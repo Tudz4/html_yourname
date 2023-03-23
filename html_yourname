@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_yourname</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-full h-screen bg-gradient-to-r from-gray-800 to-gray-900">
+    
+    <header class="w-full h-16 bg-green-500" 0></header>
+    <form class="w1/2 mx-auto mt-10 space-y-6" method="post">
+        <div><h1 class="text-2xl text-green-300">Your details</h1></div>
+        <div class="flex flex-col space-y-4">
+            <label for="Fullname" Class="text-pink-300">
+                Full name
+            </label>
+            <input class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800" type="text" name="Fullname" />
+        </div>
+        <div class="flex flex-col space-y-4">
+            <label for="Your Bio" Class="text-pink-300">
+                Your Bio
+            </label>
+            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder="Enter Your Bio" name="Your Bio">
+        </textarea>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <label for=" Your Education and/or Professional Experiences" Class="text-pink-300">
+                Your Education and/or Professional Experiences
+            </label>
+            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder=" Your Education and/or Professional Experiences" name=" Your Education and/or Professional Experiences">
+        </textarea>
+        </div>
+        <div class="flex flex-col space-y-4">
+            <label for="Your Skills" Class="text-pink-300">
+                Your Skills
+            </label>
+            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder="Your Skills" name="Your Skills">
+        </textarea>
+        </div>
+        <div>
+            <button class="bg-green-300 px-8 py-2 text-black-50 rounded-md font-semibold">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
