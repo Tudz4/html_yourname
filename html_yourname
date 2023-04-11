@@ -18,33 +18,32 @@
             <label for="Fullname" Class="text-pink-300">
                 Full name
             </label>
-            <input class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800" type="text" name="Fullname" />
+            <input class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800" type="text" name="Fullname" id="Fullname" />
         </div>
         <div class="flex flex-col space-y-4">
             <label for="Your Bio" Class="text-pink-300">
                 Your Bio
             </label>
-            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder="Enter Your Bio" name="Your Bio">
-        </textarea>
+            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder="Enter Your Bio" name="Your Bio" id="message"></textarea>
         </div>
         <div class="flex flex-col space-y-4">
             <label for=" Your Education and/or Professional Experiences" Class="text-pink-300">
                 Your Education and/or Professional Experiences
             </label>
-            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder=" Your Education and/or Professional Experiences" name=" Your Education and/or Professional Experiences">
-        </textarea>
+            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder=" Your Education and/or Professional Experiences" name=" Your Education and/or Professional Experiences" id="education"></textarea>
         </div>
         <div class="flex flex-col space-y-4">
             <label for="Your Skills" Class="text-pink-300">
                 Your Skills
             </label>
-            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder="Your Skills" name="Your Skills">
-        </textarea>
+            <textarea class="bg-gray-700 rounded-lg outline-none text-pink-300 focus:ring focus:ring-purple-500 shadow-gray-800 text-black-300" rows="5" placeholder="Your Skills" name="Your Skills" id="skills"></textarea>
         </div>
         <div>
-            <button class="bg-green-300 px-8 py-2 text-black-50 rounded-md font-semibold">
+            <button class="bg-green-300 px-8 py-2 text-black-50 rounded-md font-semibold" id="submit-btn">
                 Submit
             </button>
         </div>
     </form>
 </body>
+<script src="./index.js"></script>
+</html>
